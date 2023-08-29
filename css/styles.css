@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: #141414 !important;
+}
+
+
+.dropdown-menu {
+    background-color: transparent !important;
+    color: #fff !important;
+}
