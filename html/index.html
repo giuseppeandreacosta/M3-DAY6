@@ -16,7 +16,7 @@
     />
     <title>CLONE NETFLIX (BOOTSTRAP) - EPICODE</title>
   </head>
-  <body>
+  <body class="w-100">
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand me-4 ms-4" href="#"
@@ -102,7 +102,7 @@
     </nav>
     
        <main >   
-        <div class="d-flex align-intems-center ms-5 w-100 ">     
+        <div class="d-flex align-items-center ms-5 w-100 ">     
                 <h2 class="display-6 text-white fw-normal me-5">TV Shows</h2>
                 <div class="dropdown">
                     <button class="btn bg-dark text-light border-light dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
@@ -110,11 +110,60 @@
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
                       <li><button class="dropdown-item" type="button">Action</button></li>
-                      <li><button class="dropdown-item" type="button">Another action</button></li>
-                      <li><button class="dropdown-item" type="button">Something else here</button></li>
+                      <li><button class="dropdown-item" type="button">Anime</button></li>
+                      <li><button class="dropdown-item" type="button">Horror</button></li>
                     </ul>
                   </div>
                 </div> 
+                <section class="ms-5 mt-4 fw-normal">
+                    <h3 class="text-white">Trending Now</h3>
+                    <div class="row no-gutters">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active mt-3 ">
+                                <div class="row">
+                                <div class="col-2">
+                                    <img class="d-block w-100" src="/assets/imgs/movies/1.png" alt="">
+                                </div>
+                                <div class="col-2">
+                                    <img class="d-block w-100" src="/assets/imgs/movies/1.png" alt="">
+                                </div>
+                                <div class="col-2">
+                                    <img class="d-block w-100" src="/assets/imgs/movies/1.png" alt="">
+                                </div>
+                                <div class="col-2">
+                                    <img class="d-block w-100" src="/assets/imgs/movies/2.png" alt="">
+                                </div>
+                                <div class="col-2">
+                                    <img class="d-block w-100 " src="/assets/imgs/movies/2.png" alt="">
+                                </div>
+                                <div class="col-2">
+                                    <img class="d-block w-100" src="/assets/imgs/movies/2.png" alt="">
+                                </div>
+                                
+                                </div>
+
+                                </div>
+                              </div>
+                            </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                </section>
+            
             
                 </main>
     
