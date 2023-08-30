@@ -1,14 +1,140 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500&display=swap');
+ 
+ * {
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+body{
+    background-color: #141414;
+    overflow-x: hidden;
+    width: 100vw;
+   
+}
+
+
+
+
+
+.navbar-brand img{
+     width: 130px;
+}
+
+
+i{
+    font-size: 20px;
+    color: #fff;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.icons-right {
+    width: 50px;
+    height: 40px;
+    border: 1px solid white;
+}
+.card{
+    width: 250px;
+    background-color: #141414;
+    border-radius: 4px;
+    transition: 0.2s linear;
+    margin: 3px;
+    position: relative;
+}
+
+
+.card:hover{
+    transform: scale(1.2);
+    z-index: 10;
+    cursor: pointer;
+}
+
+
+.card-body{
+    display: none;
+    padding: 10px 15px;
+    position: absolute;
+    background-color: #141414;
+    top: 120px;
+    width: 100%;
+}
+
+
+.card-icon{
+    color: #fff;
+    padding: 0px !important;
+    font-size: 28px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.card:hover > .card-body{
+    display: block;
+
+}
+
+.carousel-control-prev{
+    display: none;
+}
+
+.carousel-control-next{
+    display: none;
+}
+
+.tab-change-btn{
+    border: none;
+    width: 30px !important;
+}
+
+
+.margin-right{
+    margin-right: 100px;
+}
+
+.netflix-card-text{
+    font-size: 12px ;
+}
+
+
+
+.margin-title2{
+    margin-top: 33px;
+}
+
+
+
+
+.footer{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+ul{
+    list-style: none;
+    font-size: 15px ;
+    color: rgba(255, 255, 255, 0.367);
+    font-weight: 100;
     
 }
 
-body {
-    background-color: #141414 !important;
+footer ul li  {
+    cursor: pointer;
 }
 
 
-.dropdown-menu {
-    background-color: transparent !important;
-    color: #fff !important;
+.service-btn{
+    background-color: transparent;
+     
+      color: rgba(255, 255, 255, 0.367);
+      border: 1px solid rgba(255, 255, 255, 0.367);
+      font-size: 15px;
+      font-weight: 100;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.367);
+    font-weight: 400;
+    font-size: 13px;
 }
