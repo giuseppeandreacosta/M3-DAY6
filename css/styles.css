@@ -89,9 +89,7 @@ i{
 }
 
 
-.margin-right{
-    margin-right: 100px;
-}
+
 
 .netflix-card-text{
     font-size: 12px ;
@@ -121,6 +119,7 @@ ul{
 
 footer ul li  {
     cursor: pointer;
+    
 }
 
 
