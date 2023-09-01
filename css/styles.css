@@ -11,6 +11,8 @@ body{
     background-color: #141414;
     overflow-x: hidden;
     width: 100vw;
+    height: 100vh;
+   
    
 }
 
@@ -30,11 +32,37 @@ i{
     cursor: pointer;
 }
 
-.icons-right {
+.row {
+    --bs-gutter-x: 4.5rem !important;
+}
+
+.btn-wrapper {
+    background-color: black;
+    margin-top: 18px;
+font-size: 14px;
+width: 100px;
+height: 35px;
+padding-bottom: 2px;
+padding-left: 1px;
+border-radius: 0px;
+}
+
+.icons-end-left {
     width: 50px;
     height: 40px;
     border: 1px solid white;
+    
+  
 }
+
+.icons-end-right {
+    width: 50px;
+    height: 40px;
+    border: 1px solid white;
+    
+}
+
+
 .card{
     width: 250px;
     background-color: #141414;
@@ -97,10 +125,6 @@ i{
 
 
 
-.margin-title2{
-    margin-top: 33px;
-}
-
 
 
 
@@ -132,8 +156,20 @@ footer ul li  {
       font-weight: 100;
 }
 
-.copyright {
-    color: rgba(255, 255, 255, 0.367);
-    font-weight: 400;
-    font-size: 13px;
-}
+.loader-container{
+    position: fixed;
+    top:0; left:0;
+    z-index: 10000;
+    background:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    width:100%;
+    overflow-y: 0;
+  }
+
+.loader-container.fade-out{
+    top:-120%;
+  }
+

@@ -6,62 +6,18 @@
 
 
 
-  @media(max-width:767.98px){
-    .netflix-padding-left{
-        padding-left: 10px !important;
+  @media (max-width: 600px) {
+    .container .row .col-md-3 {
+      flex: 0 0 50%;
+      max-width: 50%;
     }
-    
-    
-    .netflix-padding-right{
-        padding-right: 10px !important;
+    .loader-container img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    .navbar-brand img{
-        width: 43px;
-   }
-   .navbar{
-       padding-top: unset !important;
-       padding-bottom: unset !important;
-   }
-   i{
-       font-size: 12px;
-       cursor: pointer;
-       padding: 5px !important;
-   }
-   .netflix-profile{
-       margin-left: 5px ;
-   }
-   .netflix-dropdown-box{
-    display: block;
-}
-.netflix-nav{
-    display: none !important;
-}
+  }
 
-
-}
-
-
-
-.card{
-    width: 150px;
-}
-.margin-right{
-    margin-right: unset;
-}
-.card-icon{
-    font-size: 17px !important;
-}
-.card-body{
-    top: 80px !important;
-}
-.netflix-card-text{
-    font-size: 8px;
-}
-
-.margin-title{
-    margin-top: 100px;
-}
-.margin-title2{
-    margin-top: 14px;
-}
-
+  
+  
