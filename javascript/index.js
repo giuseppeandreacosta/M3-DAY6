@@ -9,11 +9,15 @@ function fadeOut(){
 /* quando si carica scompare */
 window.onload = fadeOut();
     
+
+/* Funzione che abilita il checkbox del button Sign In della page di login ,verrai linkato all'index.html */
+
+
     function enable() {
         let check = document.querySelector("#check-boxed");
         let buttonNextTo = document.querySelector("#buttonNextTo");
         if (check.checked) {
-          buttonNextTo.removeAttribute("enabled");
+          buttonNextTo.removeAttribute("disabled");
         } else {
           buttonNextTo.disabled = "false";
         }
